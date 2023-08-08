@@ -1,0 +1,16 @@
+DATA ANALYSIS USING POWER BI
+Things Which I perform in this Projects are below:-
+1. Import db data db_dump.sql in my mySQL workbench.
+2. Give connection to Power BI from MySQL.
+Data Analysis Perform in Power BI:-
+1. Make schema relationship between four tables
+2. formuate to create norm_amount column
+`SELECT SUM(transactions.sales_amount) FROM transactions INNER JOIN date ON transactions.order_date=date.date where date.year=2020 and and date.month_name="January" and (transactions.currency="INR\r" or transactions.currency="USD\r");`
+in DAX 
+3. Make Visual charts in Report on basis of:-
+      a. Reveune Sales
+      b. Sales City
+      c. Reveune by markets name
+      d. Sales Qty by reveune name
+4. Add slicer of years
+
